@@ -1,0 +1,252 @@
+---
+apiVersion: skaffold/v1
+kind: Config
+profiles:
+  - name: local
+    build:
+      tagPolicy:
+        gitCommit:
+          variant: AbbrevCommitSha
+      local:
+        push: false
+      artifacts:
+        - image: local/zmarouf/61
+          docker:
+            dockerfile: ./61/Dockerfile
+        - image: local/zmarouf/59
+          docker:
+            dockerfile: ./59/Dockerfile
+        - image: local/zmarouf/66
+          docker:
+            dockerfile: ./66/Dockerfile
+        - image: local/zmarouf/50
+          docker:
+            dockerfile: ./50/Dockerfile
+        - image: local/zmarouf/68
+          docker:
+            dockerfile: ./68/Dockerfile
+        - image: local/zmarouf/57
+          docker:
+            dockerfile: ./57/Dockerfile
+        - image: local/zmarouf/32
+          docker:
+            dockerfile: ./32/Dockerfile
+        - image: local/zmarouf/35
+          docker:
+            dockerfile: ./35/Dockerfile
+        - image: local/zmarouf/69
+          docker:
+            dockerfile: ./69/Dockerfile
+        - image: local/zmarouf/56
+          docker:
+            dockerfile: ./56/Dockerfile
+        - image: local/zmarouf/51
+          docker:
+            dockerfile: ./51/Dockerfile
+        - image: local/zmarouf/58
+          docker:
+            dockerfile: ./58/Dockerfile
+        - image: local/zmarouf/67
+          docker:
+            dockerfile: ./67/Dockerfile
+        - image: local/zmarouf/60
+          docker:
+            dockerfile: ./60/Dockerfile
+        - image: local/zmarouf/34
+          docker:
+            dockerfile: ./34/Dockerfile
+        - image: local/zmarouf/33
+          docker:
+            dockerfile: ./33/Dockerfile
+        - image: local/zmarouf/20
+          docker:
+            dockerfile: ./20/Dockerfile
+        - image: local/zmarouf/18
+          docker:
+            dockerfile: ./18/Dockerfile
+        - image: local/zmarouf/27
+          docker:
+            dockerfile: ./27/Dockerfile
+        - image: local/zmarouf/9
+          docker:
+            dockerfile: ./9/Dockerfile
+        - image: local/zmarouf/11
+          docker:
+            dockerfile: ./11/Dockerfile
+        - image: local/zmarouf/7
+          docker:
+            dockerfile: ./7/Dockerfile
+        - image: local/zmarouf/29
+          docker:
+            dockerfile: ./29/Dockerfile
+        - image: local/zmarouf/16
+          docker:
+            dockerfile: ./16/Dockerfile
+        - image: local/zmarouf/42
+          docker:
+            dockerfile: ./42/Dockerfile
+        - image: local/zmarouf/45
+          docker:
+            dockerfile: ./45/Dockerfile
+        - image: local/zmarouf/73
+          docker:
+            dockerfile: ./73/Dockerfile
+        - image: local/zmarouf/80
+          docker:
+            dockerfile: ./80/Dockerfile
+        - image: local/zmarouf/74
+          docker:
+            dockerfile: ./74/Dockerfile
+        - image: local/zmarouf/6
+          docker:
+            dockerfile: ./6/Dockerfile
+        - image: local/zmarouf/28
+          docker:
+            dockerfile: ./28/Dockerfile
+        - image: local/zmarouf/17
+          docker:
+            dockerfile: ./17/Dockerfile
+        - image: local/zmarouf/1
+          docker:
+            dockerfile: ./1/Dockerfile
+        - image: local/zmarouf/10
+          docker:
+            dockerfile: ./10/Dockerfile
+        - image: local/zmarouf/19
+          docker:
+            dockerfile: ./19/Dockerfile
+        - image: local/zmarouf/26
+          docker:
+            dockerfile: ./26/Dockerfile
+        - image: local/zmarouf/8
+          docker:
+            dockerfile: ./8/Dockerfile
+        - image: local/zmarouf/21
+          docker:
+            dockerfile: ./21/Dockerfile
+        - image: local/zmarouf/75
+          docker:
+            dockerfile: ./75/Dockerfile
+        - image: local/zmarouf/72
+          docker:
+            dockerfile: ./72/Dockerfile
+        - image: local/zmarouf/44
+          docker:
+            dockerfile: ./44/Dockerfile
+        - image: local/zmarouf/43
+          docker:
+            dockerfile: ./43/Dockerfile
+        - image: local/zmarouf/38
+          docker:
+            dockerfile: ./38/Dockerfile
+        - image: local/zmarouf/36
+          docker:
+            dockerfile: ./36/Dockerfile
+        - image: local/zmarouf/31
+          docker:
+            dockerfile: ./31/Dockerfile
+        - image: local/zmarouf/65
+          docker:
+            dockerfile: ./65/Dockerfile
+        - image: local/zmarouf/62
+          docker:
+            dockerfile: ./62/Dockerfile
+        - image: local/zmarouf/54
+          docker:
+            dockerfile: ./54/Dockerfile
+        - image: local/zmarouf/53
+          docker:
+            dockerfile: ./53/Dockerfile
+        - image: local/zmarouf/30
+          docker:
+            dockerfile: ./30/Dockerfile
+        - image: local/zmarouf/37
+          docker:
+            dockerfile: ./37/Dockerfile
+        - image: local/zmarouf/39
+          docker:
+            dockerfile: ./39/Dockerfile
+        - image: local/zmarouf/52
+          docker:
+            dockerfile: ./52/Dockerfile
+        - image: local/zmarouf/55
+          docker:
+            dockerfile: ./55/Dockerfile
+        - image: local/zmarouf/63
+          docker:
+            dockerfile: ./63/Dockerfile
+        - image: local/zmarouf/64
+          docker:
+            dockerfile: ./64/Dockerfile
+        - image: local/zmarouf/46
+          docker:
+            dockerfile: ./46/Dockerfile
+        - image: local/zmarouf/79
+          docker:
+            dockerfile: ./79/Dockerfile
+        - image: local/zmarouf/41
+          docker:
+            dockerfile: ./41/Dockerfile
+        - image: local/zmarouf/77
+          docker:
+            dockerfile: ./77/Dockerfile
+        - image: local/zmarouf/48
+          docker:
+            dockerfile: ./48/Dockerfile
+        - image: local/zmarouf/70
+          docker:
+            dockerfile: ./70/Dockerfile
+        - image: local/zmarouf/24
+          docker:
+            dockerfile: ./24/Dockerfile
+        - image: local/zmarouf/23
+          docker:
+            dockerfile: ./23/Dockerfile
+        - image: local/zmarouf/4
+          docker:
+            dockerfile: ./4/Dockerfile
+        - image: local/zmarouf/15
+          docker:
+            dockerfile: ./15/Dockerfile
+        - image: local/zmarouf/3
+          docker:
+            dockerfile: ./3/Dockerfile
+        - image: local/zmarouf/12
+          docker:
+            dockerfile: ./12/Dockerfile
+        - image: local/zmarouf/71
+          docker:
+            dockerfile: ./71/Dockerfile
+        - image: local/zmarouf/76
+          docker:
+            dockerfile: ./76/Dockerfile
+        - image: local/zmarouf/49
+          docker:
+            dockerfile: ./49/Dockerfile
+        - image: local/zmarouf/40
+          docker:
+            dockerfile: ./40/Dockerfile
+        - image: local/zmarouf/47
+          docker:
+            dockerfile: ./47/Dockerfile
+        - image: local/zmarouf/78
+          docker:
+            dockerfile: ./78/Dockerfile
+        - image: local/zmarouf/2
+          docker:
+            dockerfile: ./2/Dockerfile
+        - image: local/zmarouf/13
+          docker:
+            dockerfile: ./13/Dockerfile
+        - image: local/zmarouf/5
+          docker:
+            dockerfile: ./5/Dockerfile
+        - image: local/zmarouf/14
+          docker:
+            dockerfile: ./14/Dockerfile
+        - image: local/zmarouf/22
+          docker:
+            dockerfile: ./22/Dockerfile
+        - image: local/zmarouf/25
+          docker:
+            dockerfile: ./25/Dockerfile
